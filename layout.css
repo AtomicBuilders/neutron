@@ -17,7 +17,7 @@ body > main {
 
 body > main > nav {
   order: -1;
-  flex-flow: row;
+  flex-direction: row;
 }
 
 body > main > section {
