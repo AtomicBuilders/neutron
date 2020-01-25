@@ -12,5 +12,5 @@
   "rangeEnd": 10000,
   "requirePragma": false,
   "insertPragma": false,
-  "proseWrap": "never"
+  "proseWrap": "preserve"
 }

@@ -4,8 +4,8 @@
   "description": "Minimal JavaScript project setup",
   "author": {
     "name": "Alberto Basalo",
-    "email": "albertobasalo@agorabinaria.com",
-    "url": "https://twitter.com/albertobasalo"
+    "email": "learn@bitademy.com",
+    "url": "https://twitter.com/bit_ademy"
   },
   "license": "MIT",
   "bugs": {
@@ -24,8 +24,8 @@
   ],
   "main": "main.js",
   "scripts": {
-    "test": "jest --watch",
-    "format": "prettier --write",
+    "test": "jest --watch -o",
+    "format": "prettier --write \"./**/*.{js,json}\"",
     "jest": "jest"
   },
   "devDependencies": {
