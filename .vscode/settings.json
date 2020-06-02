@@ -1,7 +1,7 @@
 {
   "workbench.colorCustomizations": {
     "editorError.foreground": "#907080",
-    "editorWarning.foreground": "#708090"
+    "editorWarning.foreground": "#708090",
     "activityBar.background": "#fbed80",
     "activityBar.activeBorder": "#06b9a5",
     "activityBar.foreground": "#15202b",
@@ -26,7 +26,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "html.format.wrapAttributes": "force-aligned",
   "html.format.enable": true,
-  "html.format.wrapLineLength": 80,
+  "html.format.wrapLineLength": 100,
   "eslint.validate": ["javascript"],
   "spellright.language": ["en", "es"],
   "spellright.documentTypes": ["markdown", "latex", "plaintext"]
