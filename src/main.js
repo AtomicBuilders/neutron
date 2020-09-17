@@ -23,3 +23,4 @@ function Title() {
 }
 
 const unused = 9;
+console.log(unused);
