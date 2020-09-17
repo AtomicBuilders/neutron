@@ -21,3 +21,5 @@ function Title() {
   $h1.innerHTML = appName;
   return $h1;
 }
+
+const unused = 9;
