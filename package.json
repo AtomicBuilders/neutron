@@ -27,15 +27,13 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "jest": "jest",
-    "lint": "eslint src",
+    "lint": "eslint src --fix",
     "prerelease": "npm run test && standard-version",
     "release": "git push --follow-tags origin master",
     "updates": "ncu -u"
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint  --no-verify "
-    }
+    "hooks": {}
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
