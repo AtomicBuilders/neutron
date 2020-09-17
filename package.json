@@ -26,9 +26,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "format": "prettier --write \"./**/*.{js,json}\"",
     "jest": "jest",
-    "prerelease": "npm run format && npm run test && standard-version",
+    "prerelease": "npm run test && standard-version",
     "release": "git push --follow-tags origin master",
     "updates": "ncu -u"
   },
