@@ -1,7 +1,8 @@
 # neutron
 
-Minimal JS project
+Minimal JavaScript project.
 
+> Based on [quark](https://github.com/AtomicBuilders/quark) project template
 
 ### Debug
 
@@ -12,17 +13,15 @@ Minimal JS project
 
 ### Testing
 
-Configuración mínima de JEST
+Minimal testing with JEST and Babel to use latest JavaScript features
 
 ### Scripts
 
 ```json
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "jest --watch -o",
     "format": "prettier --write \"./**/*.{js,json}\"",
     "jest": "jest",
-    "prerelease": "format && test && standard-version",
     "release": "git push --follow-tags origin master",
     "updates": "ncu -u"
   },
