@@ -15,14 +15,24 @@ Minimal JavaScript project.
 
 Minimal testing with JEST and Babel to use latest JavaScript features
 
+
+### Build and deploy
+
+- Rollup
+- Babel
+- GitHub Pages
+
 ### Scripts
 
 ```json
   "scripts": {
+    "build": "rollup --config",
     "test": "jest --watch -o",
     "format": "prettier --write \"./**/*.{js,json}\"",
     "jest": "jest",
     "release": "git push --follow-tags origin master",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "updates": "ncu -u"
   },
 ```

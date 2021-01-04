@@ -1,0 +1,1 @@
+const n="Neutron!";function e(){console.log("App ready: Neutron!"),function(){const n=document.getElementById("doc-header");n.innerHTML="",n.appendChild(function(){const n=document.createElement("h1");return n.innerHTML="Neutron!",n}())}()}document.addEventListener("DOMContentLoaded",e);console.log(9);export{n as appName,e as init};
