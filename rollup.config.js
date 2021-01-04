@@ -13,7 +13,8 @@ const config = {
     copy({
       targets: [
         { src: 'src/index.html', dest: 'dist' },
-        { src: 'src/*.css', dest: 'dist' }
+        { src: 'src/*.css', dest: 'dist' },
+        { src: 'src/assets/**', dest: 'dist/assets' }
       ]
     })
   ],
